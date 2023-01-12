@@ -215,6 +215,17 @@
         </configuration>
       </plugin>
 
+      <plugin>
+        <groupId>org.graalvm.buildtools</groupId>
+        <artifactId>native-maven-plugin</artifactId>
+        <configuration>
+          <jvmArgs>
+            <arg>-XshowSettings</arg>
+          </jvmArgs>
+          <verbose>true</verbose>
+        </configuration>
+      </plugin>
+
     </plugins>
   </build>
 

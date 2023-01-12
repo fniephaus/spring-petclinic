@@ -2,9 +2,9 @@ name: Native CI with Maven and GraalVM Native Image
 
 on:
   push:
-    branches: [ main ]
+    branches: [ test ]
   pull_request:
-    branches: [ main ]
+    branches: [ test ]
 
 jobs:
   build:
